@@ -1,0 +1,24 @@
+{
+  "name": "node-usage",
+  "version": "1.0.0",
+  "description": "View how nodejs is using memory",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "./node_modules/.bin/nodejs-dashboard node debug.index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauricionobrega/node-usage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauricionobrega/node-usage/issues"
+  },
+  "homepage": "https://github.com/mauricionobrega/node-usage#readme",
+  "dependencies": {
+    "nodejs-dashboard": "^0.5.1"
+  }
+}
